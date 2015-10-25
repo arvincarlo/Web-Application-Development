@@ -1,0 +1,23 @@
+#first_name {
+	color: green;
+	background-color: red;
+}
+
+#middle_name {
+	color: yellow;
+	background-color: green;
+}
+
+#last_name {
+	color: blue;
+	background-color: yellow;
+}
+
+#content {
+	color: pink;
+	background-color: blue;
+}
+
+h1 {
+	color:grey;
+}

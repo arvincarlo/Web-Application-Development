@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Bible Application</title>
+  	<link href="themes/sunny/jquery-ui.css" rel="stylesheet">
+  	<link href="themes/sunny/theme.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<script>
+      function checker( )
+      {
+      $("div.col-md-7").load("poster.php", 
+      $("#targetForm").serializeArray( ));
+      }
+    </script>
+</head>
+<body>
+	<div class = "container-fluid">
+ 		<div class="row">
+      <div class="col-md-5">
+        <div id="tabs">
+  				<ul>
+    				<li><a href="#tabs-1">Old Testament</a></li>
+    				<li><a href="#tabs-2">New Testament</a></li>
+  				</ul>
+	  			<div id="tabs-1">
+	  				<table class="table table-hover" id="targetForm">
+  					<tr>
+  						<td><big><span class="label label-default" >Genesis</span></td>
+  						<td><button type="button" class="btn btn-primary btn-xs" onclick="checker()">Read</button></td>
+  						<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+  						<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+  					</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Exodus</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Hosea</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Numbers</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Deutoronomy</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+  						<td><big><span class="label label-default" >Joshua</span></td>
+  						<td><button type="button" class="btn btn-primary btn-xs" onclick="checker()">Read</button></td>
+  						<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+  						<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+  					</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Judges</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Ruth</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">1 Samuel</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">2 Samuel</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+  						<td><big><span class="label label-default" >1 Kings</span></td>
+  						<td><button type="button" class="btn btn-primary btn-xs" onclick="checker()">Read</button></td>
+  						<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+  						<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+  					</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">2 Kings</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">1 Chronicles</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">2 Chronicles</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Ezra</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+  						<td><big><span class="label label-default" >Nehemiah</span></td>
+  						<td><button type="button" class="btn btn-primary btn-xs" onclick="checker()">Read</button></td>
+  						<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+  						<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+  					</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Esther</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Job</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Psalm</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Proverbs</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+  						<td><big><span class="label label-default" >Ecclesiastes</span></td>
+  						<td><button type="button" class="btn btn-primary btn-xs" onclick="checker()">Read</button></td>
+  						<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+  						<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+  					</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Song of Solomon</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Isaiah</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Jeremiah</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Lamentations</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+  						<td><big><span class="label label-default" >Ezekiel</span></td>
+  						<td><button type="button" class="btn btn-primary btn-xs" onclick="checker()">Read</button></td>
+  						<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+  						<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+  					</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Daniel</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Hosea</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Joel</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Amos</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+  						<td><big><span class="label label-default" >Obadiah</span></td>
+  						<td><button type="button" class="btn btn-primary btn-xs" onclick="checker()">Read</button></td>
+  						<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+  						<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+  					</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Jonah</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Micah</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Nahum</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Habakkuk</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+  						<td><big><span class="label label-default" >Zephaniah</span></td>
+  						<td><button type="button" class="btn btn-primary btn-xs" onclick="checker()">Read</button></td>
+  						<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+  						<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+  					</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Haggai</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Zechariah</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Malachi</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+					</table>
+				</div>
+				<div id="tabs-2">
+					<table class="table table-hover">
+			  		<tr>
+			  			<td><big><span class="label label-default">Matthew</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Mark</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Luke</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">John</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Acts</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Romans</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">1 Corinthians</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">2 Corinthians</span2 Corinthianstd>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Galatians</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Ephesians</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Philippians</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Colossians</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">1 Thessalonians</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">2 Thessalonians</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">1 Timothy</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">2 Timothy</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Titus</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Philemon</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Hebrews</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">James</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">1 Peter</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">2 Peter</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">1 John</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">2 John</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">3 John</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Jude</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+			  		<tr>
+			  			<td><big><span class="label label-default">Revelation</span></td>
+			  			<td><button type="button" class="btn btn-primary btn-xs">Read</button></td>
+			  			<td><button type="button" class="btn btn-info btn-xs">Info</button></td>
+			  			<td><button type="button" class="btn btn-link btn-xs">Watch</button></td>
+			  		</tr>
+	  			</table>
+				</div>
+			</div>
+		</div>
+		<div>
+	
+		</div>
+	</div>
+</div>
+
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+$("#tabs").tabs();
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+#main {
+	margin: 0px 300px;
+}
+
+body {
+	font-family: helvetica;
+	font-size: 12px;
+	background-color: rgb(241, 241, 241);
+}
+
+table {
+	border-radius: 3px;
+	background-color: rgb(221, 221, 221);
+}
+
+td,th {
+	padding: 5px;
+}
+
+th {
+	 font-size: 13px;
+}
+
+input {
+	border-radius: 2px;
+	height: 20px;
+}
+
+#bday, #stype, #add {
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#title {
+	font-weight: bold;
+	font-size: 13px;
+}
